@@ -43,6 +43,7 @@ else
   file_out="${2}.pdf"
 fi
 
+# TODO: remove .mscz from build path
 build_dir="build/${1}"
 mkdir -p "${build_dir}"
 
